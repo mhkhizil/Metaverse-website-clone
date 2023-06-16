@@ -12,7 +12,7 @@ const ContactUs = () => {
         <form action="" className='mx-10 my-5 p-10 flex flex-col gap-5'>
             <div className="flex flex-col gap-3">
                 <label htmlFor="name">Your Name*</label>
-                <input type="text" className='focus:outline-none focus:border-black focus:ring-0' id='name' placeholder='Type your name'/>
+                <input type="text" className=' focus:outline-none focus:border-black focus:ring-0' id='name' placeholder='Type your name'/>
             </div>
             <div className="flex flex-col gap-3">
                 <label htmlFor="email">Email*</label>
