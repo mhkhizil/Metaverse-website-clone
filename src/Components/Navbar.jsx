@@ -23,9 +23,17 @@ const Navbar = () => {
         </div>
         <div className="lg:w-[30rem] flex items-center lg:justify-between">
           <nav className="hidden lg:flex gap-4 ">
-            <p>SOLUTIONS</p>
-            <p>CONTACT US</p>
-            <p>BLOG</p>
+              <ul className="uppercase grid gap-5">
+                <li>
+                  <Link to={'/solution'}>Solution</Link>
+                </li>
+                <li>
+                  <Link to={'contactus'}>Contact Us</Link>
+                </li>
+                <li>
+                  <Link to={'blog'}>Blog</Link>
+                </li>
+              </ul>
           </nav>
           <div className="w-56 flex justify-between gap-4">
             <button
@@ -70,7 +78,7 @@ const Navbar = () => {
             Solutions
           </h4>
           <h4 className="w-full text-center py-6 hover:opacity-90">
-            <Link to={'/contactus'}>Contact us</Link>
+            Contact us
           </h4>
           <h4 className="w-full text-center py-6 hover:opacity-90">Blog</h4>
           <div className="inline-block relative bg-gray-100 p-2 ">
