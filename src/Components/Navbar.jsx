@@ -70,7 +70,7 @@ const Navbar = () => {
             Solutions
           </h4>
           <h4 className="w-full text-center py-6 hover:opacity-90">
-            Contact us
+            <Link to={'/contactus'}>Contact us</Link>
           </h4>
           <h4 className="w-full text-center py-6 hover:opacity-90">Blog</h4>
           <div className="inline-block relative bg-gray-100 p-2 ">
