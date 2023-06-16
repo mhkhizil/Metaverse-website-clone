@@ -12,26 +12,26 @@ const ContactUs = () => {
         <form action="" className='mx-10 my-5 p-10 flex flex-col gap-5'>
             <div className="flex flex-col gap-3">
                 <label htmlFor="name">Your Name*</label>
-                <input type="text" className=' focus:outline-none focus:border-black focus:ring-0' id='name' placeholder='Type your name'/>
+                <input type="text" className='p-1 border border-gray-400 focus:outline-none focus:ring-0' id='name' placeholder='Type your name'/>
             </div>
             <div className="flex flex-col gap-3">
                 <label htmlFor="email">Email*</label>
-                <input type="email" id='email' className='focus:outline-none focus:border-black focus:ring-0' placeholder='Type your email' />
+                <input type="email" id='email' className='p-1 border border-gray-400 focus:outline-none focus:ring-0' placeholder='Type your email' />
             </div>
             <div className="flex flex-col gap-3">
                 <label htmlFor="phone">Phone*</label>
-                <input type="number" id='phone' className='focus:outline-none focus:border-black focus:ring-0' placeholder='Type your phone number' />
+                <input type="number" id='phone' className='p-1 border border-gray-400 focus:outline-none focus:ring-0' placeholder='Type your phone number' />
             </div>
             <div className='flex flex-col gap-3'>
                 <label htmlFor="message">Message*</label>
-                <textarea className='focus:outline-none focus:border-black focus:ring-0 ' name="message" id="message" cols="20" rows="7"></textarea>
+                <textarea className='p-1 border border-gray-400 focus:outline-none focus:ring-0 ' name="message" id="message" cols="20" rows="7"></textarea>
             </div>
             <button type='submit' className='p-3 bg-[#87c040] text-white rounded-lg w-24 '>Submit</button>
         </form>
       </div>
     </div>
     <footer className='bg-black text-white w-screen'>
-    <div className='px-10 mx-0 grid grid-cols-2 md:grid-cols-4 gap-10 py-10 '>
+    <div className='px-10 mx-0 grid-cols-1 sm:grid grid-cols-2 md:grid-cols-4 gap-10 py-10 '>
     <div className=' items-start flex flex-col gap-5'>
         <img className="h-14 w-24" src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/3412-frame-427321994.png?v=1664187660" alt="3412-frame-427321994.png"/>
         <span className='text-[#fafaf7] text-[14px] font-thin pl-5'>
