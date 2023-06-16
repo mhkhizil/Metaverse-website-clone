@@ -44,7 +44,7 @@ const Navbar = () => {
               <HiMenu />
             </button>
             <button className="border border-black rounded-full ml-5 px-6 py-1 hover:bg-black hover:text-gray-100">
-              Login
+              <Link to={'/login'}>Login</Link>
             </button>
 
             <div className="hidden lg:inline-block relative">
