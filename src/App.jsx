@@ -1,14 +1,20 @@
 import React from 'react'
 import Navbar from './Components/Navbar'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useLocation } from 'react-router-dom'
 import ContactUs from './Components/ContactUs/ContactUs'
+import Login from './Components/Login/Login'
+import LoginEmail from './Components/Login/LoginEmail'
 
 const App = () => {
+  const location = useLocation()
+  const isLogin = location.pathname == '/login' || location.pathname == '/loginemail'
   return (
     <div>
-      <Navbar/>
+      {!isLogin && <Navbar/>}
       <Routes>
         <Route path='/contactus' element={<ContactUs/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/loginemail' element={<LoginEmail/>}/>
       </Routes>
     </div>
   )
