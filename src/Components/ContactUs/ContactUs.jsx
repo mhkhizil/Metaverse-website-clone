@@ -9,7 +9,7 @@ const ContactUs = () => {
         <img className="h-[200px]" src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/1008-travelv13.png?v=1665150506" alt="1008-travelv13.png"></img>
       </div>
       <div>
-        <form action="" className='mx-10 my-5 p-10 flex flex-col gap-5'>
+        <form action="" className='mx:5 md:mx-10 my-5 p-5 md:p-10 flex flex-col gap-5'>
             <div className="flex flex-col gap-3">
                 <label htmlFor="name">Your Name*</label>
                 <input type="text" className='p-1 border border-gray-400 focus:outline-none focus:ring-0' id='name' placeholder='Type your name'/>
@@ -31,7 +31,7 @@ const ContactUs = () => {
       </div>
     </div>
     <footer className='bg-black text-white w-screen'>
-    <div className='px-10 mx-0 grid-cols-1 sm:grid grid-cols-2 md:grid-cols-4 gap-10 py-10 '>
+    <div className='px-10 mx-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 py-10 '>
     <div className=' items-start flex flex-col gap-5'>
         <img className="h-14 w-24" src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/3412-frame-427321994.png?v=1664187660" alt="3412-frame-427321994.png"/>
         <span className='text-[#fafaf7] text-[14px] font-thin pl-5'>
