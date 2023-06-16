@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     mobileMenu.classList.toggle("hidden");
-    mobileMenu.classList.toggle("flex");
+    mobileMenu.classList.toggle("flex");  
   };
 
   return (
@@ -43,7 +43,7 @@ const Navbar = () => {
             >
               <HiMenu />
             </button>
-            <button className="border border-gray-600 rounded-full px-6 py-1 hover:bg-gray-600 hover:text-gray-100">
+            <button className="border border-black rounded-full ml-5 px-6 py-1 hover:bg-black hover:text-gray-100">
               Login
             </button>
 
