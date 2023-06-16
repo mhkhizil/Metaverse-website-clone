@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
         <div className="lg:w-[30rem] flex items-center lg:justify-between">
           <nav className="hidden lg:flex gap-4 ">
-              <ul className="uppercase grid gap-5">
+              <ul className="uppercase flex gap-5">
                 <li>
                   <Link to={'/solution'}>Solution</Link>
                 </li>
