@@ -1,9 +1,17 @@
 import React from "react";
 
 import { TiTick } from "react-icons/ti";
-import { BsDiscord } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
 
+import {
+  BsDiscord,
+  BsTwitter,
+  BsInstagram,
+  BsYoutube,
+  BsLinkedin,
+  BsFacebook,
+} from "react-icons/bs";
+
+import { FaTelegramPlane } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -143,14 +151,14 @@ const Home = () => {
           <div className=" text-xl text-center text-gray-50  tracking-widest my-4">
             Join our community built around so many bright minds
           </div>
-          <div className=" gap-3 flex items-center justify-center text-gray-50">
+          <div className=" pt-8 gap-36 flex items-center justify-center text-gray-50">
             <BsDiscord className=" text-5xl" />
             <BsTwitter className=" text-5xl" />
-           
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <FaTelegramPlane className=" text-5xl" />
+            <BsInstagram className=" text-5xl" />
+            <BsYoutube className=" text-5xl" />
+            <BsLinkedin className=" text-5xl" />
+            <BsFacebook className=" text-5xl" />
           </div>
         </div>
       </div>
