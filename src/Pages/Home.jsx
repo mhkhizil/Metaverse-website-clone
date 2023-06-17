@@ -33,28 +33,65 @@ const Home = () => {
             Explore the benefits of expanding your industry into 3D
           </p>
         </div>
-        <div className=" flex  items-center justify-center bg-black">
-          <div>
-            <div>Business</div>
-            <div className=" rounded-xl bg-slate-600">
+      </div>
+      <div className=" bg-black ">
+        <div className=" m-32 flex justify-center items-center">
+          <div className=" ">
+            <div className="m-9">
+              <p className="  text-center text-white text-5xl font-extrabold">
+                Business
+              </p>
+            </div>
+            <div className="px-2 py-16 m-7 h-[300px] rounded-large bg-slate-600">
               <div>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>
+                  Virtual 3D offices and spaces for your corporate presence in
+                  the metaverse to lead innovation in your industry.
+                </p>
+                <p>
+                  {" "}
+                  Step-by-step guidance guaranteed for you to adapt to the
+                  Metaverse environment under your business model.
+                </p>
+                <p>
+                  Unique functionality and features for your business needs.
+                </p>
               </div>
             </div>
           </div>
-          <div>
-            <div></div>
-            <div></div>
+          <div className="">
+            <div className="m-9">
+              <p className=" text-center text-white text-5xl font-extrabold">
+                Education
+              </p>
+            </div>
+            <div className=" m-7 h-[300px] px-2 py-16  rounded-large bg-slate-600">
+              <div>
+                <p>
+                  Transfer online learning sessions into an immersive 3D
+                  environment. Engage students and educators with various
+                  virtual tools.
+                </p>
+                <p>
+                  Full class immersion using virtual classrooms, lecture halls,
+                  and other spaces for comfortable learning.
+                </p>
+                <p>
+                  {" "}
+                  Tools for teachers and instrucors to manage the class
+                  effectively in virtual spaces created specifically for
+                  learning.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
       </div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
   );
 };

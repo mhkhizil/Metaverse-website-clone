@@ -6,6 +6,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    borderRadius:{
+     "large":"32px",
+  },
     extend: {
       fontFamily:{'mainf':['Montagu Slab', 'serif']},
       colors: {
