@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -6,6 +7,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{'mainf':['Montagu Slab', 'serif']},
+      colors: {
+        'pg': '#d2ff1c',
+        'hbg':'#defa6b'
+      },
       keyframes:{
         'open-menu' : {
           '0%' : {transform : 'scaleY(0)'},
