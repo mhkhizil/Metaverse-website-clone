@@ -1,10 +1,16 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
+    borderRadius:{
+     "large":"32px",
+  },
+
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
@@ -27,6 +33,12 @@ export default {
       // => @media (min-width: 1537px) { ... }
     },
     extend: {
+      fontFamily:{'mainf':['Montagu Slab', 'serif']},
+      colors: {
+        'pg': '#d2ff1c',
+        'hbg':'#defa6b',
+        'blackistgrey':'#1f1e1e'
+      },
       keyframes:{
         'open-menu' : {
           '0%' : {transform : 'scaleY(0)'},
