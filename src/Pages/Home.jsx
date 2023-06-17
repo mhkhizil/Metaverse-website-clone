@@ -33,7 +33,22 @@ const Home = () => {
             Explore the benefits of expanding your industry into 3D
           </p>
         </div>
-        <div></div>
+        <div className=" flex  items-center justify-center bg-black">
+          <div>
+            <div>Business</div>
+            <div className=" rounded-xl bg-slate-600">
+              <div>
+                <p></p>
+                <p></p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
         <div></div>
         <div></div>
         <div></div>
