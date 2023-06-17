@@ -31,7 +31,7 @@ const Navbar = () => {
                   <Link to={'contactus'}>Contact Us</Link>
                 </li>
                 <li>
-                  <Link to={'blog'}>Blog</Link>
+                  <Link to={'blog/page/1'}>Blog</Link>
                 </li>
               </ul>
           </nav>
