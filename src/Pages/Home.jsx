@@ -195,12 +195,40 @@ const Home = () => {
             </div>
           </div>
         </div>
-      
-
       </div>
-      <div className="  mt-20 flex  gap-28 items-center justify-center  " >
-          <p className=" text-center font-mainf text-5xl lin tracking-wide ">THESE PEOPLE ARE IN!</p>
+      <div className=" mb-6  mt-20 flex  gap-28 items-center justify-center  ">
+        <p className=" text-center font-mainf text-5xl lin tracking-wide ">
+          THESE PEOPLE ARE IN!
+        </p>
+      </div>
+      <div className="  bg-black  ">
+        <div className="   ">
+          
+         <img src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/3380-partners-logos-pandamr.webp" alt="" />
+           
+        
+        </div>
+      </div>
+      <div className=" my-10 flex items-center justify-center">
+        <div className=" flex-col  items-center justify-center  w-4/5  ">
+          <p className=" text-center font-mainf text-5xl lin tracking-wide ">
+          Want to learn more about business implementations of Metaverse?
+          </p>
+          <p className="  text-center font-mainf text-5xl tracking-wide mt-6  mb-10">
+          Searching for ideas specifically for your business needs?
+          </p>
+          <p className=" text-center text-2xl text-gray-700 tracking-wider">
+          Tell us more about your business model and we will come up with a metaverse strategy that guarantees additional value for your company and team.
+          </p>
+         
+          <div className=" text-center ">
+            <button className="  hover:bg-hbg text-center bg-pg  rounded-large mt-10  px-20 py-3">
+              <span className="">Submit a request</span>{" "}
+            </button>
           </div>
+      
+        </div>
+      </div>
     </div>
   );
 };
