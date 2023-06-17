@@ -13,7 +13,8 @@ export default {
       fontFamily:{'mainf':['Montagu Slab', 'serif']},
       colors: {
         'pg': '#d2ff1c',
-        'hbg':'#defa6b'
+        'hbg':'#defa6b',
+        'blackistgrey':'#1f1e1e'
       },
       keyframes:{
         'open-menu' : {
