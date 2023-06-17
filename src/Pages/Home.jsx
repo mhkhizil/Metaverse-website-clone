@@ -34,7 +34,7 @@ const Home = () => {
           />
           <div className=" text-center ">
             <button className="  hover:bg-hbg text-center bg-pg  rounded-large mt-10  px-20 py-3">
-              <span className="">Let's talk</span>{" "}
+              <span className="">Let's talk</span>
             </button>
           </div>
           <p className="text-center font-mainf text-3xl mt-16 lin tracking-wide">
@@ -46,9 +46,9 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className=" bg-black ">
-        <div className="  mt-40 flex justify-center items-center">
-          <div className=" ">
+      <div className=" mt-32 flex justify-center items-center bg-black  ">
+        <div className="   flex justify-center items-center  w-4/5 ">
+          <div className="  ">
             <div className="m-9">
               <p className="  text-center text-white text-4xl font-extrabold">
                 Business
