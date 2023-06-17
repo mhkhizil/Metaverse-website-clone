@@ -3,5 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+    :root{
+        --color-success: #4FA36D;
+        --icon-color: #8c8c85;
+    }
+}
+
 
 

@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     mobileMenu.classList.toggle("hidden");
-    mobileMenu.classList.toggle("flex");
+    mobileMenu.classList.toggle("flex");  
   };
 
   return (
@@ -23,9 +23,17 @@ const Navbar = () => {
         </div>
         <div className="lg:w-[30rem] flex items-center lg:justify-between">
           <nav className="hidden lg:flex gap-4 ">
-            <p>SOLUTIONS</p>
-            <p>CONTACT US</p>
-            <p>BLOG</p>
+              <ul className="uppercase flex gap-5">
+                <li>
+                  <Link to={'/solution'}>Solution</Link>
+                </li>
+                <li>
+                  <Link to={'contactus'}>Contact Us</Link>
+                </li>
+                <li>
+                  <Link to={'blog/page/1'}>Blog</Link>
+                </li>
+              </ul>
           </nav>
           <div className="w-56 flex justify-between gap-4">
             <button
@@ -35,8 +43,8 @@ const Navbar = () => {
             >
               <HiMenu />
             </button>
-            <button className="border border-gray-600 rounded-full px-6 py-1 hover:bg-gray-600 hover:text-gray-100">
-              Login
+            <button className="border border-black rounded-full ml-5 px-6 py-1 hover:bg-black hover:text-gray-100">
+              <Link to={'/login'}>Login</Link>
             </button>
 
             <div className="hidden lg:inline-block relative">

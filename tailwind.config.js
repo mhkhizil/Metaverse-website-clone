@@ -6,9 +6,32 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
     borderRadius:{
      "large":"32px",
   },
+
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+      
+      'bmd': '810px',
+      // => @media (min-width: 810px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1537px',
+      // => @media (min-width: 1537px) { ... }
+    },
     extend: {
       fontFamily:{'mainf':['Montagu Slab', 'serif']},
       colors: {
@@ -24,7 +47,11 @@ export default {
         },
         animation : {
           'open-menu' : 'open-menu 0.5s ease-in-out forwards',
-        }
+        },
+        colors:{
+          'success' : 'var(--color-success)',
+          'icon-color' : 'var(--icon-color)'
+        },
       }
     },
   },
