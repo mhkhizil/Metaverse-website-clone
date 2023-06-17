@@ -1,6 +1,9 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
+
 import { TiTick } from "react-icons/ti";
+import { BsDiscord } from "react-icons/bs";
+import { BsTwitter } from "react-icons/bs";
+
 
 const Home = () => {
   return (
@@ -132,22 +135,25 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" flex-col items-center justify-center bg-black ">
-       <div className=" text-center text-gray-50">dfbndb</div>
-       <div className=" text-center text-gray-50">dfhbdfbdb</div>
-       <div className=" text-gray-50">
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-       </div>
+      <div className=" flex-col items-center justify-center bg-black  ">
+        <div className=" pt-8  ">
+          <div className=" text-center text-gray-50 font-extrabold text-5xl">
+            METACOMMUNITY
+          </div>
+          <div className=" text-xl text-center text-gray-50  tracking-widest my-4">
+            Join our community built around so many bright minds
+          </div>
+          <div className=" gap-3 flex items-center justify-center text-gray-50">
+            <BsDiscord className=" text-5xl" />
+            <BsTwitter className=" text-5xl" />
+           
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+          </div>
+        </div>
       </div>
-      <div></div>
-      <div></div>
-      <div></div>
     </div>
   );
 };
