@@ -9,6 +9,7 @@ import {
   BsYoutube,
   BsLinkedin,
   BsFacebook,
+  BsPlayCircleFill,
 } from "react-icons/bs";
 
 import { FaTelegramPlane } from "react-icons/fa";
@@ -32,8 +33,7 @@ const Home = () => {
             alt=""
           />
           <div className=" text-center ">
-            <button className="  hover:bg-hbg text-center bg-pg  rounded-3xl mt-10  px-20 py-3">
-              {" "}
+            <button className="  hover:bg-hbg text-center bg-pg  rounded-large mt-10  px-20 py-3">
               <span className="">Let's talk</span>{" "}
             </button>
           </div>
@@ -151,7 +151,7 @@ const Home = () => {
           <div className=" text-xl text-center text-gray-50  tracking-widest my-4">
             Join our community built around so many bright minds
           </div>
-          <div className=" pt-8 gap-36 flex items-center justify-center text-gray-50">
+          <div className="py-8 gap-36 flex items-center justify-center text-gray-50">
             <BsDiscord className=" text-5xl" />
             <BsTwitter className=" text-5xl" />
             <FaTelegramPlane className=" text-5xl" />
@@ -162,6 +162,45 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className=" mt-10 flex items-center justify-center">
+        <div className=" flex  gap-28 items-center justify-center  w-4/5  ">
+          <div className=" w-2/4">
+            <div>
+              <p className="  text-lg font-light">
+                Before you jump into corporate meta-spaces, think of your
+                virtual self in the metaverse: your Avatar.
+              </p>
+              <p className=" my-6 text-3xl  font-thin">Create one first!</p>
+              <p className="  text-lg font-light">
+                Modify every aspect of the avatar and design a fully individual
+                and realistic representation of yourself.
+              </p>
+            </div>
+            <div>
+              <button className=" hover:border-none  border border-pg  border-solid  border-2 bg-pg  mt-8 rounded-large px-20 py-4 bg">
+                Create an avatar
+              </button>
+            </div>
+          </div>
+          <div className=" w-2/4">
+            <div className="relative">
+              <img
+                src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/0014007853502-artboard-1-16651470897565.webp"
+                alt="Image"
+                className="w-full"
+              />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <BsPlayCircleFill className="h-16 w-16 text-white   opacity-70" />
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+      </div>
+      <div className="  mt-20 flex  gap-28 items-center justify-center  " >
+          <p className=" text-center font-mainf text-5xl lin tracking-wide ">THESE PEOPLE ARE IN!</p>
+          </div>
     </div>
   );
 };
