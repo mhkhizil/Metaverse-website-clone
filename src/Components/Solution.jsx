@@ -1,4 +1,5 @@
-
+import { motion } from "framer-motion";
+import React from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -7,10 +8,7 @@ import { BsYoutube } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
 import { BsDiscord } from "react-icons/bs";
 
-import { motion } from "framer-motion";
-
 const Soultion = () => {
-  
   const variant = {
     open: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
     closed: { opacity: 0, scale: 0, transition: { duration: 0.5 } },
@@ -36,10 +34,10 @@ const Soultion = () => {
         <motion.div className=" grid bmd:grid-cols-2 bmd:grid-rows-1 grid-cols-1 grid-rows-2 mt-14 bmd:container bmd:mx-auto bmd:px-10 place-items-center">
           <motion.div className=" ml-[-5rem] bmd:col-start-1  bmd:col-end-2  bmd:row-start-1  bmd:row-end-2">
             <motion.img
-             initial={'closed'}
-             animate={'open'}
-             variants={variant}
-              src='https://static.pandamr.com/fs/userFiles/pandamrv2/images/2260-business-16641793505197.png?v=1664180185'
+              initial={"closed"}
+              animate={"open"}
+              variants={variant}
+              src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/2260-business-16641793505197.png?v=1664180185"
               className=" block "
               alt="photo1"
             />
@@ -67,7 +65,6 @@ const Soultion = () => {
         </motion.div>
 
         <div className="bmd:h-[190vh] lg:h-[180vh] sm:h-[460vh]  mt-10 grid bmd:grid-cols-2 bmd:grid-rows-3 grid-cols-1 grid-rows-6 gap-2 bmd:container bmd:mx-auto lg:px-10">
-
           <div className="bmd:col-start-1 bmd:col-end-2 bmd:row-start-1 bmd:row-end-2 col-start-1 col-end-1 row-start-1 row-end-2">
             <h1 className="font-semibold text-3xl font-header mb-5">
               Education Hub
@@ -87,19 +84,19 @@ const Soultion = () => {
           </div>
           <div className="bmd:col-start-2 bmd:col-end-3 bmd:row-start-1 bmd:row-end-2 col-start-1 col-end-1 row-start-2 row-end-3 mb-5">
             <motion.img
-              initial='closed'
-              animate='open'
+              initial="closed"
+              animate="open"
               variants={variant2}
-              src='https://static.pandamr.com/fs/userFiles/pandamrv2/images/11817716778293370-education.png?v=1665039693'
+              src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/11817716778293370-education.png?v=1665039693"
               alt=""
             />
           </div>
           <div className="bmd:col-start-1 bmd:col-end-2 bmd:row-start-2 bmd:row-end-3 col-start-1 col-end-1 row-start-3 row-end-4 mb-5">
             <motion.img
-              initial={'closed'}
-              animate={'open'}
+              initial={"closed"}
+              animate={"open"}
               variants={variant}
-              src='https://static.pandamr.com/fs/userFiles/pandamrv2/images/06019209583373-artislandcba9d036ea3443031685.png?v=1665039766'
+              src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/06019209583373-artislandcba9d036ea3443031685.png?v=1665039766"
               alt=""
             />
           </div>
@@ -137,21 +134,21 @@ const Soultion = () => {
           </div>
           <div className="bmd:col-start-2 bmd:col-end-3 bmd:row-start-3 bmd:row-end-4 col-start-1 col-end-1 row-start-6 row-end-7 mb-5">
             <motion.img
-              initial={'closed'}
-              animate={'open'}
+              initial={"closed"}
+              animate={"open"}
               variants={variant}
-              src='https://static.pandamr.com/fs/userFiles/pandamrv2/images/3376-08319209153376-enterteiment-1.webp'
+              src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/3376-08319209153376-enterteiment-1.webp"
               alt=""
             />
           </div>
         </div>
-
-
-
-        <div className="bg-black py-10 mt-10">
+        <footer className="bg-black py-10 mt-10">
           <div className="grid md:grid-cols-4 md:grid-rows-1 grid-cols-1 grid-row-4 container mx-auto px-10 text-[#fafafa] ">
             <div className="md:col-start-1 md:col-end-2 col-start-1 col-end-2 ">
-              <img src='https://static.pandamr.com/fs/userFiles/pandamrv2/images/2513-frame-427321994.png?v=1664179718' alt="" />
+              <img
+                src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/2513-frame-427321994.png?v=1664179718"
+                alt=""
+              />
               <p className="text-[15px] font-para font-light w-[80%] mt-5 leading-4">
                 PandaMR is a metaverse designed for the needs of businesses and
                 communities with immersive 3D virtual solutions optimized for
@@ -213,10 +210,8 @@ const Soultion = () => {
               Copyright PandaMR 2023. All rights reserved
             </p>
           </div>
-        </div>
+        </footer>
       </div>
-
-      
     </div>
   );
 };

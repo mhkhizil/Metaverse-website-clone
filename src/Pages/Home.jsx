@@ -13,6 +13,7 @@ import {
 } from "react-icons/bs";
 
 import { FaTelegramPlane } from "react-icons/fa";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
@@ -229,6 +230,7 @@ const Home = () => {
       
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

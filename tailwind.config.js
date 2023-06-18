@@ -7,9 +7,7 @@ export default {
   ],
   theme: {
 
-    borderRadius:{
-     "large":"32px",
-  },
+    
 
     screens: {
       'sm': '640px',
@@ -33,6 +31,9 @@ export default {
       // => @media (min-width: 1537px) { ... }
     },
     extend: {
+      borderRadius:{
+        "large":"32px",
+     },
       fontFamily:{'mainf':['Montagu Slab', 'serif']},
       colors: {
         'pg': '#d2ff1c',
