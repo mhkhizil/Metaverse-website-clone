@@ -34,9 +34,9 @@ const Login = () => {
                 </li>
                 <li className='mx-auto text-gray-500'>OR</li>
                 <li className='border-gray-400 border rounded-full py-4 px-5'>
-                    <Link to={'/loginemail'} className='flex items-center gap-5 justify-center' alt="fastex login">
+                    <a href="https://space.pandamr.io/login" className='flex items-center gap-5 justify-center' alt="fastex login">
                         <span className='text-2xl font-medium'>Use your Email</span>
-                    </Link>
+                    </a>
                 </li>
             </ul>
         </div>
