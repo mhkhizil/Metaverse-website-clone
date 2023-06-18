@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,3 +11,5 @@
 }
 
 
+
+/* npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch */
