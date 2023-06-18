@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaFacebookF,FaTwitter,FaLinkedin,FaInstagram,FaYoutube,FaTelegramPlane,FaDiscord} from 'react-icons/fa'
+import Footer from '../Footer'
 const ContactUs = () => {
   return (
    <div>
@@ -30,7 +31,8 @@ const ContactUs = () => {
         </form>
       </div>
     </div>
-    <footer className='bg-black text-white w-screen'>
+    <Footer/>
+    {/* <footer className='bg-black text-white w-screen'>
     <div className='px-10 mx-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 py-10 '>
     <div className=' items-start flex flex-col gap-5'>
         <img className="h-14 w-24" src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/3412-frame-427321994.png?v=1664187660" alt="3412-frame-427321994.png"/>
@@ -107,7 +109,7 @@ const ContactUs = () => {
             <p>Copyright PandaMR 2023. All rights reserved</p>
         </div>
     </div>
-    </footer>
+    </footer> */}
    </div>
   )
 }

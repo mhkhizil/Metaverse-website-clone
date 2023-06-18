@@ -12,7 +12,9 @@ const Login = () => {
             <img src="https://space.pandamr.io/static/media/Art_Island.cba9d036ea3443031685.png" className='' alt="" />
         </div>
         <div className='flex flex-col items-center lg:items-start gap-20'>
+            <Link to={'/'}>
             <img src="https://space.pandamr.io/static/media/logoSvg.9b2aa1fa8e4f55227f980e5a865ea0d0.svg" alt="pandamr logo" />
+            </Link>
             <ul className='w-[90%] lg:w-[70%] grid gap-5'>
                 <li className='border border-black rounded-full py-4 px-5'>
                     <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1895762952%3A1686837127429684&ffgf=1&ifkv=Af_xneH48XcG-eo_GLMVWAe4VuwqL_HVhLXZ1aw-ZZ9Tnvd9rrxaM5hKIz69T5A3NVTxMdKV7ZG_kg&flowName=GlifWebSignIn&flowEntry=ServiceLogin" className='flex items-center gap-5 justify-center' alt="google login">
