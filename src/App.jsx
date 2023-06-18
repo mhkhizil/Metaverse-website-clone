@@ -4,7 +4,6 @@ import Navbar from './Components/Navbar'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import ContactUs from './Components/ContactUs/ContactUs'
 import Login from './Components/Login/Login'
-import React from "react";
 import Home from "./Pages/Home";
 import Soultion from "./Components/Solution";
 import Blog from "./Components/Blog";
