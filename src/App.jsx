@@ -3,7 +3,6 @@ import Navbar from './Components/Navbar'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import ContactUs from './Components/ContactUs/ContactUs'
 import Login from './Components/Login/Login'
-import LoginEmail from './Components/Login/LoginEmail'
 
 const App = () => {
   const location = useLocation()
@@ -14,7 +13,6 @@ const App = () => {
       <Routes>
         <Route path='/contactus' element={<ContactUs/>}/>
         <Route path='/login' element={<Login/>}/>
-        <Route path='/loginemail' element={<LoginEmail/>}/>
       </Routes>
     </div>
   )
