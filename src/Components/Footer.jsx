@@ -1,10 +1,11 @@
 import React from "react";
-import { FaFacebookF } from "react-icons/fa";
+import {FaFacebookF,FaTwitter,FaLinkedin,FaInstagram,FaYoutube,FaTelegramPlane,FaDiscord} from 'react-icons/fa'
+// import { FaFacebookF } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
-import { FaTelegramPlane } from "react-icons/fa";
+// import { FaTelegramPlane } from "react-icons/fa";
 import { BsDiscord } from "react-icons/bs";
 
 const Footer = () => {
@@ -56,7 +57,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="w-full container mx-auto mt-10 col-start-1 col-end-2">
+      {/* <div className="w-full container mx-auto mt-10 col-start-1 col-end-2">
         <div className="flex items-center justify-center gap-8">
           <FaFacebookF className="text-[#fafafa] text-xl" />
           <BsTwitter className="text-[#fafafa]  text-xl" />
@@ -69,7 +70,35 @@ const Footer = () => {
         <p className="text-[.85rem] mt-5 font-para font-semibold text-[#fafafa] text-center">
           Copyright PandaMR 2023. All rights reserved
         </p>
-      </div>
+      </div> */}
+      <div className=' flex flex-col items-center gap-3 justify-center mt-10'>
+        <ul className='grid grid-cols-3 md:grid-cols-7 gap-8' >
+            <li>
+                <a href="https://www.facebook.com/PandamrMetaverse" target='_blank' aria-label='facebook'><FaFacebookF className='text-2xl text-[#fafafa] '/></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/Metaverse_pmr" target='_blank' aria-label='twitter'><FaTwitter className="text-2xl text-[#fafafa]"/></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/pandamr/" target='_blank' aria-label='linkedin'><FaLinkedin className="text-2xl text-[#fafafa]"/></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/the_pandamr" target='_blank' aria-label='instagram'><FaInstagram className="text-2xl text-[#fafafa]"/></a>
+            </li>
+            <li>
+                <a href="https://youtube.com/@PandaMR_Metaverse" target='_blank' aria-label='youtube'><FaYoutube className="text-2xl text-[#fafafa]"/></a>
+            </li>
+            <li>
+                <a href="https://t.me/Pandamr_Metaverse" target='_blank' aria-label='telegram'><FaTelegramPlane className="text-2xl text-[#fafafa]"/></a>
+            </li>
+            <li>
+                <a href="https://discord.gg/pmrmetaverse" target='_blank' aria-label='discord'><FaDiscord className="text-2xl text-[#fafafa]"/></a>
+            </li>
+        </ul>
+        <p className="text-[.85rem] mt-5 font-para font-semibold text-[#fafafa] text-center">
+          Copyright PandaMR 2023. All rights reserved
+        </p>  
+    </div>
     </footer>
   );
 };
