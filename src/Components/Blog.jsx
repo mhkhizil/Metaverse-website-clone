@@ -293,14 +293,14 @@ const Blog = () => {
   return (
     <div className="relative">
       {/* <motion.div className="progress-bar" style={{scaleX}}></motion.div> */}
-      <div className="relative  md:w-full  md:h-screen">
+      <div className="relative  md:w-full  md:h-screen h-[35vh] z-10">
         <img
           src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/4246-reding-1horizintal-1.webp?v=1676640370"
           alt=""
           className="absolute object-contain md:object-cover top-0 left-0 w-full h-full"
         />
-        <div className=" flex items-center h-[75vh]">
-          <h2 className="uppercase font-bold text-white text-6xl ml-6  z-[100]">
+        <div className=" flex items-center md:h-[75vh] h-[26vh]">
+          <h2 className="uppercase font-bold text-white text-6xl ml-6  z-[10]">
             METAVERSE BLOG
           </h2>
         </div>
