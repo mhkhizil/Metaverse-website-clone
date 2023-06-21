@@ -307,7 +307,7 @@ const Blog = () => {
       </div>
 
       <div
-        className={`grid md:grid-cols-2  lg:grid-cols-3  grid-cols-1  mb-14  gap-10 mt-14 container mx-auto`}
+        className={`grid md:grid-cols-2  lg:grid-cols-3  grid-cols-1  md:px-5 px-3 mb-14  gap-10 mt-14 container mx-auto`}
       >
         {BlogDataForPage?.map((blog) => (
           <BlogComponent key={blog?.id} blog={blog} />
