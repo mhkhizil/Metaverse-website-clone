@@ -14,8 +14,21 @@ import {
 
 import { FaTelegramPlane } from "react-icons/fa";
 import Footer from "../Components/Footer";
+import { motion } from "framer-motion";
+
 
 const Home = () => {
+
+  const imgVairants = {
+    open: {opacity:1, scale:1, transition: {duration:.5, delay:.3}},
+    closed: {opacity:0, scale:0.9, transition: {duration:.5, delay:.3}},
+  }
+
+  const divVairants = {
+    open: {opacity:1, x:0, transition: {duration:.5}},
+    closed: {opacity:0, x:-80, transition: {duration:.5}},
+  }
+
   return (
     <div className=" mt-16 h-screen">
       <div className=" flex items-center justify-center">
@@ -112,34 +125,54 @@ const Home = () => {
               Explore the Meta-spaces created by professionals for our business
               community
             </p>
-            <div className=" my-10">
+            <motion.div
+            initial={'closed'}
+            whileInView={'open'}
+            variants={imgVairants}
+            viewport={{ once: true }}
+            className=" my-10">
               <img
                 src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/3514-l-2-2-16668542124443.webp"
                 alt=""
               />
-            </div>
+            </motion.div>
             <div className=" gap-10  flex items-center justify-center">
-              <div>
+              <motion.div
+              initial={'closed'}
+              whileInView={'open'}
+              variants={imgVairants}
+              viewport={{ once: true }}
+              >
                 <img
                   className=" w-auto h-auto "
                   src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/3486-layer-3-1-16733374833653.webp?v=1673338488"
                   alt=""
                 />
-              </div>
-              <div>
+              </motion.div>
+              <motion.div
+              initial={'closed'}
+              whileInView={'open'}
+              variants={imgVairants}
+              viewport={{ once: true }}
+              >
                 <img
                   className=" w-auto h-auto "
                   src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/3486-layer-4-2.webp?v=1673338488"
                   alt=""
                 />
-              </div>
-              <div>
+              </motion.div>
+              <motion.div
+              initial={'closed'}
+              whileInView={'open'}
+              variants={imgVairants}
+              vierPort={{once:true}}
+              >
                 <img
                   className=" w-auto h-auto "
                   src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/3486-layer-2-3.webp?v=1673338488"
                   alt=""
                 />
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
@@ -163,7 +196,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" mt-10 flex items-center justify-center">
+      <motion.div 
+      initial={'closed'}
+      whileInView={'open'}
+      variants={divVairants}
+      vierPort={{once:true}}
+      className=" mt-10 flex items-center justify-center">
         <div className=" flex  gap-28 items-center justify-center  w-4/5  ">
           <div className=" w-2/4">
             <div>
@@ -196,12 +234,13 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
       <div className=" mb-6  mt-20 flex  gap-28 items-center justify-center  ">
         <p className=" text-center font-mainf text-5xl lin tracking-wide ">
           THESE PEOPLE ARE IN!
         </p>
       </div>
+
       <div className="  bg-black  ">
         <div className="   ">
           
@@ -236,3 +275,4 @@ const Home = () => {
 };
 
 export default Home;
+

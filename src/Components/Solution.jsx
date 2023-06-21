@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import React from "react";
 import { FaFacebookF } from "react-icons/fa";
@@ -35,7 +36,9 @@ const Soultion = () => {
           <motion.div className=" ml-[-5rem] bmd:col-start-1  bmd:col-end-2  bmd:row-start-1  bmd:row-end-2">
             <motion.img
               initial={"closed"}
-              animate={"open"}
+              whileInView={"open"}
+             viewport={{ once: true }}
+
               variants={variant}
               src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/2260-business-16641793505197.png?v=1664180185"
               className=" block "
@@ -85,7 +88,9 @@ const Soultion = () => {
           <div className="bmd:col-start-2 bmd:col-end-3 bmd:row-start-1 bmd:row-end-2 col-start-1 col-end-1 row-start-2 row-end-3 mb-5">
             <motion.img
               initial="closed"
-              animate="open"
+              whileInView="open"
+             viewport={{ once: true }}
+
               variants={variant2}
               src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/11817716778293370-education.png?v=1665039693"
               alt=""
@@ -94,7 +99,9 @@ const Soultion = () => {
           <div className="bmd:col-start-1 bmd:col-end-2 bmd:row-start-2 bmd:row-end-3 col-start-1 col-end-1 row-start-3 row-end-4 mb-5">
             <motion.img
               initial={"closed"}
-              animate={"open"}
+              whileInView={"open"}
+             viewport={{ once: true }}
+
               variants={variant}
               src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/06019209583373-artislandcba9d036ea3443031685.png?v=1665039766"
               alt=""
@@ -135,7 +142,9 @@ const Soultion = () => {
           <div className="bmd:col-start-2 bmd:col-end-3 bmd:row-start-3 bmd:row-end-4 col-start-1 col-end-1 row-start-6 row-end-7 mb-5">
             <motion.img
               initial={"closed"}
-              animate={"open"}
+              whileInView={"open"}
+             viewport={{ once: true }}
+
               variants={variant}
               src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/3376-08319209153376-enterteiment-1.webp"
               alt=""
