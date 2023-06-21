@@ -293,7 +293,7 @@ const Blog = () => {
   return (
     <div className="relative">
       {/* <motion.div className="progress-bar" style={{scaleX}}></motion.div> */}
-      <div className="relative  md:w-full  md:h-screen h-[35vh] z-10">
+      <div className="relative  md:w-full  md:h-screen h-[35vh] z-[5]">
         <img
           src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/4246-reding-1horizintal-1.webp?v=1676640370"
           alt=""

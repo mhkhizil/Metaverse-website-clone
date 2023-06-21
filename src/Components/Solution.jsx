@@ -19,7 +19,7 @@ const Soultion = () => {
     closed: { opacity: 0, scale: 0, transition: { duration: 0.5 } },
   };
   return (
-    <div className="relative">
+    <div className="relative px-2">
       <div className="w-full h-[90vh] ">
         <div className="pt-16 container mx-auto bmd:px-10">
           <h1 className="text-6xl font-extrabold font-header">

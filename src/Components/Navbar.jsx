@@ -66,7 +66,7 @@ const Navbar = () => {
       </section>
       <section
         id="mobileMenu"
-        className="absolute top-0 bg-gray-200 w-full text-xl  flex-col justify-center origin-top animate-open-menu hidden"
+        className="absolute top-0 bg-gray-200 w-full text-xl  flex-col justify-center origin-top animate-open-menu hidden z-10"
       >
         <button onClick={toggleMenu} className="text-6xl self-end px-6">
           &times;
@@ -75,14 +75,38 @@ const Navbar = () => {
           className="flex flex-col min-h-screen items-center py-8"
           aria-label="mobile"
         >
-          <h4 className="w-full text-center py-6 hover:opacity-90">Home</h4>
-          <h4 className="w-full text-center py-6 hover:opacity-90">
-            Solutions
-          </h4>
-          <h4 className="w-full text-center py-6 hover:opacity-90">
-            Contact us
-          </h4>
-          <h4 className="w-full text-center py-6 hover:opacity-90">Blog</h4>
+          <Link to={"/"}>
+            <h4
+              onClick={toggleMenu}
+              className="w-full text-center py-6 hover:opacity-90"
+            >
+              Home
+            </h4>
+          </Link>
+          <Link to={"/solution"}>
+            <h4
+              onClick={toggleMenu}
+              className="w-full text-center py-6 hover:opacity-90"
+            >
+              Solutions
+            </h4>
+          </Link>
+          <Link to={"/contactus"}>
+            <h4
+              onClick={toggleMenu}
+              className="w-full text-center py-6 hover:opacity-90"
+            >
+              Contact us
+            </h4>
+          </Link>
+          <Link to={"/blog/page/1"}>
+            <h4
+              onClick={toggleMenu}
+              className="w-full text-center py-6 hover:opacity-90"
+            >
+              Blog
+            </h4>
+          </Link>
           <div className="inline-block relative bg-gray-100 p-2 ">
             <select className="block py-2.5 px-0 w-24 text-lg bg-transparent appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
               <option value="US">US</option>
