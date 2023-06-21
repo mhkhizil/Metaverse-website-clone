@@ -67,7 +67,7 @@ const Soultion = () => {
           </div>
         </motion.div>
 
-        <div className="bmd:h-[190vh] lg:h-[180vh] sm:h-[460vh]  mt-10 grid bmd:grid-cols-2 bmd:grid-rows-3 grid-cols-1 grid-rows-6 gap-2 bmd:container bmd:mx-auto lg:px-10">
+        <div className="md:h-[200vh] bmd:h-[100vh] lg:h-[180vh] sm:h-[460vh] mt-10 grid bmd:grid-cols-2 bmd:grid-rows-3 grid-cols-1 grid-rows-6 gap-2 bmd:container bmd:mx-auto lg:px-10">
           <div className="bmd:col-start-1 bmd:col-end-2 bmd:row-start-1 bmd:row-end-2 col-start-1 col-end-1 row-start-1 row-end-2">
             <h1 className="font-semibold text-3xl font-header mb-5">
               Education Hub
