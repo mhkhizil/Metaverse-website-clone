@@ -24,6 +24,7 @@ const App = () => {
         <Route path="/solution" element={<Soultion />} />
 
       </Routes>
+      
     </div>
   );
 };

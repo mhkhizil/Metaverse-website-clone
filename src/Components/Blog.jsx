@@ -3,9 +3,9 @@ import BlogComponent from "./BlogComponent";
 import { FaAngleLeft } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
 
-
 import { motion, useScroll, useSpring } from "framer-motion";
 import { useNavigate, useParams } from "react-router-dom";
+import Footer from "./Footer";
 
 const Blog = () => {
   const blogs = [
@@ -117,7 +117,8 @@ const Blog = () => {
     {
       id: 15,
       img: "https://static.pandamr.com/fs/userFiles/pandamrv2/images/a-72-as-72-3191102055339749954115901886998653940086267n.webp?v=1675338950",
-      title: "It makes sense that many companies have started to see virtual offices as a viable option for conducting business. We feel more at ease working from home, and there is a growing desire for coming up with innovative solutions to enhance the workplace. In this article, we'll look at some amazing examples of people using the metaverse for work and discuss what that job might look like in the future.",
+      title:
+        "It makes sense that many companies have started to see virtual offices as a viable option for conducting business. We feel more at ease working from home, and there is a growing desire for coming up with innovative solutions to enhance the workplace. In this article, we'll look at some amazing examples of people using the metaverse for work and discuss what that job might look like in the future.",
       time: "11.12.2022",
     },
     {
@@ -137,7 +138,8 @@ const Blog = () => {
     {
       id: 18,
       img: "https://static.pandamr.com/fs/userFiles/pandamrv2/images/a-68-24-1.webp?v=1675338668",
-      title: "It has become clear that the Metaverse is a strong and fascinating natural force. We'll go in-depth on the Metaverse, crypto currencies, and NFTs in this article, along with the best metaverse cryptos and how to buy them. The token was initially offered for $0.15, but a year later, it was trading for $165.",
+      title:
+        "It has become clear that the Metaverse is a strong and fascinating natural force. We'll go in-depth on the Metaverse, crypto currencies, and NFTs in this article, along with the best metaverse cryptos and how to buy them. The token was initially offered for $0.15, but a year later, it was trading for $165.",
       time: "28.10.2022",
     },
     {
@@ -199,7 +201,8 @@ const Blog = () => {
     {
       id: 27,
       img: "https://static.pandamr.com/fs/userFiles/pandamrv2/images/a-27-14-1.webp?v=1675337515",
-      title: "Innovative Virtual Business Ideas That Showcase Entrepreneurial Spirit",
+      title:
+        "Innovative Virtual Business Ideas That Showcase Entrepreneurial Spirit",
       para: "Read a compiled list of our top virtual business ideas, along with real-world examples, to encourage you to keep the dream alive. Take advantage of work-from-home trends to become your own boss for a while, or use events to discover a new method of conducting business.",
       time: "28.12.2021",
     },
@@ -273,31 +276,26 @@ const Blog = () => {
   const BlogDataForPage = splitData[id - 1];
 
   const handleLeftClick = () => {
-      if(id!=1) nav(`/blog/page/${id - 1}`)
-  }
+    if (id != 1) nav(`/blog/page/${id - 1}`);
+  };
   const handleRightClick = () => {
-    if(id<splitData.length) nav(`/blog/page/${Number(id) +1}`)
-}
+    if (id < splitData.length) nav(`/blog/page/${Number(id) + 1}`);
+  };
 
-
-
-const { scrollYProgress } = useScroll();
+  const { scrollYProgress } = useScroll();
 
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
-    restDelta: 0.001
+    restDelta: 0.001,
   });
- 
-
-
 
   return (
     <div className="relative">
       {/* <motion.div className="progress-bar" style={{scaleX}}></motion.div> */}
       <div className="relative  md:w-full  md:h-screen">
         <img
-          src='https://static.pandamr.com/fs/userFiles/pandamrv2/images/4246-reding-1horizintal-1.webp?v=1676640370'
+          src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/4246-reding-1horizintal-1.webp?v=1676640370"
           alt=""
           className="absolute object-contain md:object-cover top-0 left-0 w-full h-full"
         />
@@ -317,22 +315,32 @@ const { scrollYProgress } = useScroll();
       </div>
 
       <div className="flex items-center justify-center gap-5 my-8">
-        <span onClick={handleLeftClick} className="go-prev bg-btn p-2 cursor-pointer w-[2rem] h-[2.35rem] bg-[#f5f5f5] text-gray-500  active:scale-75 duration-200 rounded-md shadow-lg text-xl z-10">
+        <span
+          onClick={handleLeftClick}
+          className="go-prev bg-btn p-2 cursor-pointer w-[2rem] h-[2.35rem] bg-[#f5f5f5] text-gray-500  active:scale-75 duration-200 rounded-md shadow-lg text-xl z-10"
+        >
           <FaAngleLeft />
         </span>
         {splitData?.map((data, index) => (
           <span
             key={index}
             onClick={() => nav(`/blog/page/${index + 1}`)}
-            className={` px-5 py-2 rounded-sm cursor-pointer inline-block pagination-button ${id == (index+1) ? 'pagination-button-active':''}`}
+            className={` px-5 py-2 rounded-sm cursor-pointer inline-block pagination-button ${
+              id == index + 1 ? "pagination-button-active" : ""
+            }`}
           >
             {index + 1}
           </span>
         ))}
-        <span onClick={handleRightClick} className="go-prev bg-btn p-2 cursor-pointer w-[2rem] h-[2.35rem] bg-[#f5f5f5] text-gray-500  active:scale-75 duration-200 rounded-md shadow-lg text-xl z-10">
+        <span
+          onClick={handleRightClick}
+          className="go-prev bg-btn p-2 cursor-pointer w-[2rem] h-[2.35rem] bg-[#f5f5f5] text-gray-500  active:scale-75 duration-200 rounded-md shadow-lg text-xl z-10"
+        >
           <FaAngleRight />
         </span>
       </div>
+
+      <Footer/>
     </div>
   );
 };
