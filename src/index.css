@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    :root{
-        --color-success: #4FA36D;
-        --icon-color: #8c8c85;
-    }
+@layer base {
+  :root {
+    --color-success: #4fa36d;
+    --icon-color: #8c8c85;
+  }
 }
 
-
+@font-face {
+  font-family: "Akira";
+  src: url("../Font/Akira\ Expanded\ Demo.otf");
+}
 
 /* npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch */
