@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { HiMenu } from "react-icons/hi";
 import { BiCaretDown } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
   const mobileMenu = document.getElementById("mobileMenu");
 
   const toggleMenu = () => {
@@ -23,9 +28,9 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="lg:w-[30rem] flex items-center lg:justify-between">
-          <nav className="hidden lg:flex gap-4 ">
-            <ul className="uppercase flex gap-5">
+        <div className="lg:w-[40rem] flex items-center lg:justify-around">
+          <nav className="hidden lg:w-[20rem] 2xl:w-[30rem] lg:flex gap-4 ">
+            <ul className="w-full uppercase flex justify-evenly gap-4">
               <li>
                 <Link to={"/solution"}>Solution</Link>
               </li>
@@ -37,7 +42,7 @@ const Navbar = () => {
               </li>
             </ul>
           </nav>
-          <div className="w-56 flex justify-between gap-4">
+          <div className="w-56 flex justify-between items-center lg:justify-normal gap-4">
             <button
               onClick={toggleMenu}
               id="menuBtn"
@@ -50,16 +55,79 @@ const Navbar = () => {
             </button>
 
             <div className="hidden lg:inline-block relative">
-              <select className="block py-2.5 px-0 w-24 text-sm bg-transparent appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
-                <option value="US">US</option>
-                <option value="CA">UK</option>
-                <option value="FR">Singapore</option>
-                <option value="DE">Germany</option>
-              </select>
+              <button
+                type="button"
+                className="inline-flex relative items-center px-2 py-1 rounded-md text-sm font-medium text-gray-700 bg-white"
+                onMouseEnter={toggleDropdown}
+              >
+                <img
+                  className="w-5 h-5"
+                  src="https://static.pandamr.com/assets/images/flags64/en-us.svg?v=1666005141"
+                  alt=""
+                />
 
-              <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
-                <BiCaretDown />
-              </div>
+                <div className=" inset-y-0 -right-5 flex items-center px-2 pointer-events-none">
+                  <BiCaretDown />
+                </div>
+              </button>
+              {isOpen && (
+                <div
+                  onMouseLeave={toggleDropdown}
+                  className="origin-top-right absolute right-0  w-16 rounded bg-white"
+                >
+                  <div
+                    className="py-1"
+                    role="menu"
+                    aria-orientation="vertical"
+                    aria-labelledby="options-menu"
+                  >
+                    <a
+                      href="#"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                      role="menuitem"
+                    >
+                      <img
+                        className="w-5 h-5"
+                        src="https://static.pandamr.com/assets/images/flags64/hy-am.svg?v=1666005141"
+                        alt=""
+                      />
+                    </a>
+                    <a
+                      href="#"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                      role="menuitem"
+                    >
+                      <img
+                        className="w-5 h-5"
+                        src="https://static.pandamr.com/assets/images/flags64/ru-ru.svg?v=1666005141"
+                        alt=""
+                      />
+                    </a>
+                    <a
+                      href="#"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                      role="menuitem"
+                    >
+                      <img
+                        className="w-5 h-5"
+                        src="https://static.pandamr.com/assets/images/flags64/tr-tr.svg?v=1666005141"
+                        alt=""
+                      />
+                    </a>
+                    <a
+                      href="#"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                      role="menuitem"
+                    >
+                      <img
+                        className="w-5 h-5"
+                        src="https://static.pandamr.com/assets/images/flags64/ar.svg?v=1666005141"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
