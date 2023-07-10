@@ -34,11 +34,12 @@ export default {
       borderRadius:{
         "large":"32px",
      },
-      fontFamily:{'mainf':['Montagu Slab', 'serif']},
+      fontFamily:{'mainf':['Montagu Slab', 'serif'], 'custom': ['Akira Expanded']},
       colors: {
         'pg': '#d2ff1c',
         'hbg':'#defa6b',
-        'blackistgrey':'#1f1e1e'
+        'blackistgrey':'#1f1e1e',
+        'blogText':'#353535'
       },
       keyframes:{
         'open-menu' : {
