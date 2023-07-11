@@ -39,7 +39,8 @@ export default {
         'pg': '#d2ff1c',
         'hbg':'#defa6b',
         'blackistgrey':'#1f1e1e',
-        'blogText':'#353535'
+        'blogText':'#353535',
+        'blogdetailheafer2':'#230B34'
       },
       keyframes:{
         'open-menu' : {

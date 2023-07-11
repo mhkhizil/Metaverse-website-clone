@@ -21,7 +21,7 @@ const Blog = () => {
       title: "Collaboration in the Metaverse: A Game-Changer For Businesses",
       para: "Virtual events have several advantages, including affordable travel and adaptable alternatives. Organizations should follow these guidelines and take the following actions to ensure the success of a metaverse event. We'll also look at the metaverse's potential for event organizing in the",
       time: "20.05.2023",
-      img: "https://static.pandamr.com/fs/userFiles/pandamrv2/images/a-89-collaboration-in-the-metaverse-a-game-changer-for-businesses.webp?v=1685533896",
+      img: "https://static.pandamr.com/fs/userFiles/pandamrv2/images/a-89-a-game-changer-for-businesses.webp?v=1688974401",
     },
     {
       id: 3,

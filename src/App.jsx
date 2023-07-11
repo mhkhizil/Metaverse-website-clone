@@ -7,6 +7,7 @@ import Login from './Components/Login/Login'
 import Home from "./Pages/Home";
 import Soultion from "./Components/Solution";
 import Blog from "./Components/Blog";
+import DetailBlog from './Components/DetailBlog'
 
 const App = () => {
   const location = useLocation();
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path={`/blog/page/:id`} element={<Blog />} />
         <Route path="/solution" element={<Soultion />} />
+        <Route path='/detailBlog' element={<DetailBlog/>}/>
 
       </Routes>
       
