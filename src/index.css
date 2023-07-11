@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "Akira";
-  src: url("../Font/Akira\ Expanded\ Demo.otf");
+  src: url('../Font/Akira\ Expanded\ Demo.otf') format('woff2');
 }
 
 /* npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch */
