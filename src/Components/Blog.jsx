@@ -117,7 +117,8 @@ const Blog = () => {
     {
       id: 15,
       img: "https://static.pandamr.com/fs/userFiles/pandamrv2/images/a-72-as-72-3191102055339749954115901886998653940086267n.webp?v=1675338950",
-      title:
+      title: 'How to Access Metaverse: Check out These Popular Platforms',
+      para:
         "It makes sense that many companies have started to see virtual offices as a viable option for conducting business. We feel more at ease working from home, and there is a growing desire for coming up with innovative solutions to enhance the workplace. In this article, we'll look at some amazing examples of people using the metaverse for work and discuss what that job might look like in the future.",
       time: "11.12.2022",
     },
@@ -138,7 +139,8 @@ const Blog = () => {
     {
       id: 18,
       img: "https://static.pandamr.com/fs/userFiles/pandamrv2/images/a-68-24-1.webp?v=1675338668",
-      title:
+      title: 'How Will the Metaverse Look Like in 2032?',
+      para:
         "It has become clear that the Metaverse is a strong and fascinating natural force. We'll go in-depth on the Metaverse, crypto currencies, and NFTs in this article, along with the best metaverse cryptos and how to buy them. The token was initially offered for $0.15, but a year later, it was trading for $165.",
       time: "28.10.2022",
     },
@@ -297,7 +299,7 @@ const Blog = () => {
         <img
           src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/4246-reding-1horizintal-1.webp?v=1676640370"
           alt=""
-          className="absolute object-contain md:object-cover top-0 left-0 w-full h-full"
+          className="absolute object-cover md:object-cover top-0 left-0 w-full h-full"
         />
         <div className=" flex items-center md:h-[75vh] h-[26vh]">
           <h2 className="   uppercase font-bold text-white text-6xl ml-6  z-[10]">
@@ -325,8 +327,8 @@ const Blog = () => {
           <span
             key={index}
             onClick={() => nav(`/blog/page/${index + 1}`)}
-            className={` px-5 py-2 rounded-sm cursor-pointer inline-block pagination-button ${
-              id == index + 1 ? "pagination-button-active" : ""
+            className={` px-4 py-2 rounded-sm cursor-pointer inline-block pagination-button  ${
+              id == index + 1 ? "pagination-button-active  bg-black text-white" : "bg-gray-200 text-black"
             }`}
           >
             {index + 1}

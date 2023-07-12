@@ -1,5 +1,4 @@
 
-import React from 'react'
 import Navbar from './Components/Navbar'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import ContactUs from './Components/ContactUs/ContactUs'
@@ -23,7 +22,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path={`/blog/page/:id`} element={<Blog />} />
         <Route path="/solution" element={<Soultion />} />
-        <Route path='/detailBlog' element={<DetailBlog/>}/>
+        <Route path='/detail' element={<DetailBlog/>}/>
 
       </Routes>
       

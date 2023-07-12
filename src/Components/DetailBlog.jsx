@@ -5,7 +5,7 @@ const DetailBlog = () => {
   return (
    <div>
      <div className=" my-10 flex items-center justify-center">
-      <div className=" flex-col items-center justify-center w-2/4">
+      <div className=" flex-col items-center justify-center px-4 lg:px-0 w-full lg:w-2/4">
         <img
           className=" my-4"
           src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/a-88-how-to-successfully-host-an-event-in-metaverse-in-x-steps.webp?v=1685530886"
