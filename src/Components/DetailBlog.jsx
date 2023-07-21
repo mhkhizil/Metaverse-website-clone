@@ -11,10 +11,10 @@ const DetailBlog = () => {
           src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/a-88-how-to-successfully-host-an-event-in-metaverse-in-x-steps.webp?v=1685530886"
           alt=""
         />
-        <h1 className=" my-4 font-custom  text-2xl  font-header text-blogText  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header text-blogText  font-extrabold tracking-tight space-x-8   uppercase  ">
           How to Successfully Host an Event in Metaverse in 5 Steps
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           Hosting virtual events offers a range of benefits - from low travel
           costs to ease of access and endless customization opportunities to
           turn your conference, expo, or meeting into a memorable experience.
@@ -33,10 +33,10 @@ const DetailBlog = () => {
           src="https://static.pandamr.com/fs/userFiles/pandamrv2/uploaded-media/first-ticket-1-16855313020864.webp"
           alt=""
         />
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           The Impact of the Metaverse on Meetings and Corporate Events
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           Virtual events have already had a massive impact on the entertainment
           industry. For example, did you know that Lil Nas X’s concert on Roblox
           was viewed more than 33 million times? Or that Travis Scott’s Fortnite
@@ -51,10 +51,10 @@ const DetailBlog = () => {
           great opportunity for advertising, too! So, have you considered
           hosting a metaverse event yourself?
         </p>
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           The Future of VR and AR Event Planning
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           Fashion shows, auctions, and art projects are just some of the things
           happening in the metaverse today, so we can only expect events to
           expand and improve in the coming years! Of course, we’re not yet at a
@@ -73,19 +73,19 @@ const DetailBlog = () => {
           src="https://static.pandamr.com/fs/userFiles/pandamrv2/uploaded-media/virtual-reality-presentation-2023-04-28-01-22-31-utc.webp"
           alt=""
         />
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           How to Plan and Host an Event in the Metaverse In 5 Steps
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           We’ve gone through the main benefits of hosting an event in the
           metaverse and why we can expect these to just become more and more
           popular in the coming years. Now, it’s time to go through the steps to
           make sure your metaverse event is a success!
         </p>
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           Step 1: Determine Your Goal
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           The most important thing before thinking about budgets or marketing
           materials for your event is to define your goal. What’s your purpose?
           What do you expect to achieve? Here are some questions to help you get
@@ -94,10 +94,10 @@ const DetailBlog = () => {
           participate? And are your potential visitors already familiar with
           virtual events?
         </p>
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           Step 2: Find the Perfect Venue and Platform
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           You will want to make sure that you pick a platform and a space that
           matches your events’ needs. There are many that can be customized, so
           make sure you visit them and explore what they have to offer. Some
@@ -140,7 +140,7 @@ const DetailBlog = () => {
             </li>
           </ul>
         </p>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           It’s crucial to always leverage scalability. You should look for a
           digital event venue that allows you to, for example, add more rooms if
           you get more visitors than you initially expected. This is where the
@@ -148,10 +148,10 @@ const DetailBlog = () => {
           metaverse opens the door to a whole range of interactive and scalable
           experiences!
         </p>
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           Step 3: Make Sure Your Attendees Can Join
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           Most metaverse or virtual event spaces will require visitors to use
           some sort of device or hardware. In most cases, this can be a simple
           smartphone or tablet, although some people might prefer a desktop
@@ -166,10 +166,10 @@ const DetailBlog = () => {
           familiar with the interface. You can also hold video training sessions
           for visitors and exhibitors, so everyone is comfortable later.
         </p>
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           Step 5: Look After Your Guests
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           Before you launch your event, make sure you test all your features and
           devices. Check that the invitation links are working, that speakers’
           microphones can be heard, and that avatars are ready. Then, once your
@@ -177,7 +177,7 @@ const DetailBlog = () => {
           visitors. Remember, you are the host, so pick an avatar that looks
           similar to yourself and dress to impress. And have fun!
         </p>
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           More Metaverse Event Planning Musts
         </h1>
         <img
@@ -185,7 +185,7 @@ const DetailBlog = () => {
           src="https://static.pandamr.com/fs/userFiles/pandamrv2/uploaded-media/find-ftnft-in-2-locations-in-duba.webp"
           alt=""
         />
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           Just like with anything, if you want to become great at hosting
           metaverse events, practice is key. So, here are some lessons we
           learned from running our own, and that might come in handy:
@@ -214,46 +214,46 @@ const DetailBlog = () => {
             </li>
           </ul>
         </p>
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           Metaverse Event Planning: FAQ
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           We’ve gone through the five steps for planning a metaverse event. Now,
           here are some common questions people have when organizing an
           exhibition, art gallery, or event for the first time
         </p>
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           Can I Host a Meeting in the Metaverse?
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           Definitely! The metaverse allows you to host anything from a small
           gathering to a massive conference. Just make sure you pick the space
           that fits your purpose; you don’t need a stadium if you’ll only meet
           with four more people!
         </p>
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           How Much Does a Metaverse Event Cost?
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           It depends on the platform. If your event is small, you might be able
           to run it for free using one of the massive platforms listed below.
           For more personalized experiences (that include customization,
           monetization, and extra spaces for networking and such), you will
           usually have to pay a rental fee.
         </p>
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           What is The Most Popular Metaverse Platform?
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           When it comes to massive platforms, the most popular at the moment are
           Decentraland, The Sandbox, Roblox, and Horizon Worlds. If you’re
           looking for a smaller one that specializes in events, though, you
           should check out PandaMR.
         </p>
-        <h1 className=" my-4 font-custom  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
+        <h1 className=" font-akiraBold my-4  text-2xl  font-header  text-blogdetailheafer2  font-extrabold tracking-tight space-x-8   uppercase  ">
           Where Can I Learn More About Metaverse Event Planning?
         </h1>
-        <p className=" my-4 font-custom  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
+        <p className=" my-4 font-normal  text-lg   text-blogText  font-light tracking-tight space-x-8     ">
           If you want to learn more about planning events in the metaverse,
           check these articles from our blog:
         </p>

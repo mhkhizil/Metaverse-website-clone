@@ -16,7 +16,7 @@ const Soultion = () => {
     <div className="relative px-2">
       <div className="w-full h-[90vh] ">
         <div className="pt-16 container mx-auto bmd:px-10">
-          <h1 className="text-6xl font-extrabold font-header">
+          <h1 className="font- font-bold text-6xl font-extrabold font-header">
             PandaMR districts
           </h1>
           <p className="w-[90%] text-lg font-semibold mt-5 tracking-wide leading-7">
@@ -40,7 +40,7 @@ const Soultion = () => {
             />
           </motion.div>
           <div className="  bmd:col-start-2  bmd:col-end-3  bmd:row-start-1  bmd:row-end-2">
-            <h1 className="text-3xl mb-5 font-header font-bold">
+            <h1 className="f text-3xl mb-5 font-header font-bold">
               Business Bay
             </h1>
             <p className="text-lg font-light  ">
@@ -55,7 +55,7 @@ const Soultion = () => {
               Conduct hiring and onboarding sessions, plan internal online
               meetings, host and take part in online conferences, and more.
             </p>
-            <button className="px-8 text-xl mt-20 py-3 rounded-full bg-black text-white">
+            <button className="px-8 text-xl font-akiraBold mt-20 py-3 rounded-full bg-black text-white">
               Let's talk
             </button>
           </div>
@@ -63,7 +63,7 @@ const Soultion = () => {
 
         <div className="md:h-[200vh] bmd:h-[100vh] lg:h-[180vh] sm:h-[460vh] mt-10 grid bmd:grid-cols-2 bmd:grid-rows-3 grid-cols-1 grid-rows-6 gap-2 bmd:container bmd:mx-auto lg:px-10">
           <div className="bmd:col-start-1 bmd:col-end-2 bmd:row-start-1 bmd:row-end-2 col-start-1 col-end-1 row-start-1 row-end-2">
-            <h1 className="font-semibold text-3xl font-header mb-5">
+            <h1 className="font- font-bold font-semibold text-3xl font-header mb-5">
               Education Hub
             </h1>
             <p className="text-[1.1rem] w-full lg:w-[75%] sm:w-[90%] font-para font-light text-para">
@@ -75,7 +75,7 @@ const Soultion = () => {
               The tools and features of this district are all you can need for a
               successful and engaging class to take place virtually.{" "}
             </p>
-            <button className="px-8 text-xl mt-10 py-3 rounded-full bg-black text-white">
+            <button className="px-8 text-xl font-akiraBold mt-10 py-3 rounded-full bg-black text-white">
               Let's talk
             </button>
           </div>
@@ -102,7 +102,7 @@ const Soultion = () => {
             />
           </div>
           <div className=" bmd:col-start-2 bmd:col-end-3 bmd:row-start-2 bmd:row-end-3 col-start-1 col-end-1 row-start-4 row-end-5">
-            <h1 className="font-semibold text-3xl font-header mb-5">
+            <h1 className="font- font-bold font-semibold text-3xl font-header mb-5">
               Arts District
             </h1>
             <p className="text-[1.1rem] w-[75%] font-para font-light text-para">
@@ -112,13 +112,13 @@ const Soultion = () => {
               be shown, sold and auctioned off.
             </p>
 
-            <button className="px-8 text-xl mt-10 py-3 rounded-full bg-black text-white">
+            <button className="px-8 text-xl font-akiraBold mt-10 py-3 rounded-full bg-black text-white">
               Let's talk
             </button>
           </div>
 
           <div className="bmd:col-start-1 bmd:col-end-2 bmd:row-start-3 bmd:row-end-4 col-start-1 col-end-1 row-start-5 row-end-6">
-            <h1 className="font-semibold text-3xl font-header mb-5">
+            <h1 className="font- font-bold font-semibold text-3xl font-header mb-5">
               Entertainment
             </h1>
             <p className="text-[1.1rem] w-[90%] font-para font-light text-para">
@@ -129,7 +129,7 @@ const Soultion = () => {
               professional will use in the metaverse’s virtual environment.
             </p>
 
-            <button className="px-8 text-xl mt-10 py-3 rounded-full bg-black text-white">
+            <button className="px-8 text-xl font-akiraBold mt-10 py-3 rounded-full bg-black text-white">
               Let's talk
             </button>
           </div>

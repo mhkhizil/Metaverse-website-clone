@@ -1,4 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+@font-face {
+  font-family: "Akira";
+  src: url('../Font/Akira-Expanded-Demo.otf') ;
+}
+@font-face {
+  font-family: "Akira Bold";
+  src: url('../Font/Akira\ Expanded\ Bold.otf') ;
+}
+@font-face {
+  font-family: "Light";
+  src: url('../Font/Mont-Light.ttf') ;
+}
+@font-face {
+  font-family: "Regular";
+  src: url('../Font/Mont-Regular.ttf') ;
+}
+@font-face {
+  font-family: "Bold";
+  src: url('../Font/Mont-Bold.ttf') ;
+}
+@font-face {
+  font-family: "SemiBold";
+  src: url('../Font/Mont-SemiBold.ttf') ;
+}
+@font-face {
+  font-family: "Heavy";
+  src: url('../Font/Mont-Heavy.ttf') ;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,9 +39,6 @@
   }
 }
 
-@font-face {
-  font-family: "Akira";
-  src: url('../Font/Akira\ Expanded\ Demo.otf') format('woff2');
-}
+
 
 /* npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch */

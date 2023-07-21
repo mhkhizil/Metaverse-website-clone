@@ -9,11 +9,11 @@ const BlogComponent = ({blog}) => {
       </Link>
       
       <h2
-      className=' font-custom  text-2xl  font-header text-blogText  font-extrabold tracking-tight space-x-8   uppercase  '>{blog?.title}</h2>
-      <p className='md:w-[90%] font-para font-normal text-para my-6'>{blog?.para}</p>
+      className='   text-xl  font-header text-blogText  font-extrabold font-akiraBold tracking-tight space-x-8   uppercase  '>{blog?.title}</h2>
+      <p className='md:w-[90%] font-light font-normal text-para my-6'>{blog?.para}</p>
       <div className="flex items-center justify-start gap-2">
         <RiTimeFill/>
-        <p>{blog?.time}</p>
+        <p className='font-light'>{blog?.time}</p>
       </div>
     </div>
   )

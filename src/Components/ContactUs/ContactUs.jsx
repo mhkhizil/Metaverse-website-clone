@@ -6,26 +6,26 @@ const ContactUs = () => {
    <div>
      <div className=' grid grid-cols-1 lg:grid-cols-2 mx-10'>
       <div className='flex flex-col items-center gap-10'> 
-        <h1 className='text-4xl'>Hi, how can we help?</h1>
-        <img className="h-[200px]" src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/1008-travelv13.png?v=1665150506" alt="1008-travelv13.png"></img>
+        <h1 className='text-4xl font-bold'>Hi, how can we help?</h1>
+        <img className="block w-1/2 mx-auto" src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/1008-travelv13.png?v=1665150506" alt="1008-travelv13.png"></img>
       </div>
       <div>
         <form action="" className='mx:5 md:mx-10 my-5 p-5 md:p-10 flex flex-col gap-5'>
             <div className="flex flex-col gap-3">
-                <label htmlFor="name">Your Name*</label>
-                <input type="text" className='p-1 border border-gray-400 focus:outline-none focus:ring-0' id='name' placeholder='Type your name'/>
+                <label className='f font-input font-medium' htmlFor="name">Your Name*</label>
+                <input type="text" className='p-1 border font-input border-gray-400 focus:outline-none focus:ring-0' id='name' placeholder='Type your name'/>
             </div>
             <div className="flex flex-col gap-3">
-                <label htmlFor="email">Email*</label>
-                <input type="email" id='email' className='p-1 border border-gray-400 focus:outline-none focus:ring-0' placeholder='Type your email' />
+                <label className='f font-input font-medium' htmlFor="email">Email*</label>
+                <input type="email" id='email' className='p-1 border font-input border-gray-400 focus:outline-none focus:ring-0' placeholder='Type your email' />
             </div>
             <div className="flex flex-col gap-3">
-                <label htmlFor="phone">Phone*</label>
-                <input type="number" id='phone' className='p-1 border border-gray-400 focus:outline-none focus:ring-0' placeholder='Type your phone number' />
+                <label className='f font-input font-medium' htmlFor="phone">Phone*</label>
+                <input type="number" id='phone' className='p-1 border font-input border-gray-400 focus:outline-none focus:ring-0' placeholder='Type your phone number' />
             </div>
             <div className='flex flex-col gap-3'>
-                <label htmlFor="message">Message*</label>
-                <textarea className='p-1 border border-gray-400 focus:outline-none focus:ring-0 ' name="message" id="message" cols="20" rows="7"></textarea>
+                <label className='f font-input font-medium' htmlFor="message">Message*</label>
+                <textarea className='p-1 border font-input border-gray-400 focus:outline-none focus:ring-0 ' name="message" id="message" cols="20" rows="7"></textarea>
             </div>
             <button type='submit' className='p-3 bg-[#87c040] text-white rounded-lg w-24 '>Submit</button>
         </form>

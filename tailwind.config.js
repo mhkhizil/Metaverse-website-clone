@@ -34,7 +34,18 @@ export default {
       borderRadius:{
         "large":"32px",
      },
-      fontFamily:{'mainf':['Montagu Slab', 'serif'], 'custom': ['Akira Expanded']},
+      fontFamily:{
+                  'mainf':['Montagu Slab', 'serif'],
+                    'custom': ['Akira','san-serif'],
+                    'akiraBold': ['Akira Bold','san-serif'],
+                    'light': ['Light','san-serif'],
+                    'regular': ['Regular','san-serif'],
+                    'bold': ['Bold','san-serif'],
+                    'semiBold': ['SemiBold','san-serif'],
+                    'heavy': ['Heavy','san-serif'],
+                    'input': ['IBM Plex Sans','san-serif']
+                  
+                  },
       colors: {
         'pg': '#d2ff1c',
         'hbg':'#defa6b',

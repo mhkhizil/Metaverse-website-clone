@@ -28,11 +28,11 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="lg:w-[40rem] flex items-center lg:justify-around">
+        <div className="lg:w-[40rem] flex items-center lg:justify-between">
           <nav className="hidden lg:w-[20rem] 2xl:w-[30rem] lg:flex gap-4 ">
-            <ul className="w-full uppercase flex justify-evenly gap-4">
+            <ul className="w-full uppercase flex justify-evenly gap-4 font-regular">
               <li>
-                <Link to={"/solution"}>Solution</Link>
+                <Link to={"/solution"}>Solutions</Link>
               </li>
               <li>
                 <Link to={"contactus"}>Contact Us</Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
               </li>
             </ul>
           </nav>
-          <div className="w-56 flex justify-between items-center lg:justify-normal gap-4">
+          <div className="w-56 flex justify-between items-center lg:justify-between gap-4">
             <button
               onClick={toggleMenu}
               id="menuBtn"
@@ -50,7 +50,7 @@ const Navbar = () => {
             >
               <HiMenu />
             </button>
-            <button className="border border-black rounded-full ml-5 px-6 py-1 hover:bg-black hover:text-gray-100">
+            <button className="border border-black rounded-full ml-5 px-6 py-1 hover:bg-black hover:text-gray-100 font-semibold">
               <Link to={"/login"}>Login</Link>
             </button>
 
